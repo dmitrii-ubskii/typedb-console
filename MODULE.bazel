@@ -24,7 +24,7 @@ typedb_driver_commit = "48157a455caeeee9342f659d07b09bdb618a5f04"
 typeql_commit = "405c5383a35277acc40bb0921ffd2e8eb1b1b00d"
 typedb_protocol_commit = "3a39f0b94fd7ea316ba5a4f74d44d5afc454cedf"
 
-typeql_tag = "3.12.0"
+typeql_tag = "3.13.0-rc0"
 typedb_protocol_tag = "3.12.0"
 typedb_driver_tag = "3.12.0"
 
@@ -68,7 +68,7 @@ bazel_dep(name = "typedb_behaviour", version = "0.0.0")
 git_override(
     module_name = "typedb_behaviour",
     remote = "https://github.com/typedb/typedb-behaviour",
-    commit = "d3bb01333c67b41eeac23d2291e243b047cb518d",
+    commit = "c4004a7e787ac111ce83d35230deea60fb6f3eda",
 )
 
 # Python toolchain
